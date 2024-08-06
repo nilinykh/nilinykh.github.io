@@ -6,13 +6,9 @@ title: Test
 
 # About me
 
-<div class="image-hover-wrapper" data-hover="/assets/gifs/squirtle-pokemon.gif">
-  <img src="/assets/images/test.jpeg" alt="Static Image">
-</div>
+{% include image-hover.html static_image="/assets/images/test.jpeg" hover_image="/assets/images/squirtle-pokemon.gif" alt_text="Static Image" %}
 
-<div style="float:right; margin:1rem">
-        <img src="/images/test.jpeg" alt="thesis cover">
-</div>
+
 
 
 ## License
