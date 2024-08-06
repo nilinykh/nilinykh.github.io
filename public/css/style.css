@@ -1,28 +1,23 @@
-.image-hover-wrapper {
-    display: inline-block;
+.image-hover-container {
     position: relative;
-  }
-  
-  .image-hover-wrapper img {
+    display: inline-block;
+}
+
+.image-hover-container .static-image {
     display: block;
-  }
-  
-  .image-hover-wrapper::before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
+}
+
+.image-hover-container .hover-image {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url('/assets/images/test.jpeg');
-    background-size: cover;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-  
-  .image-hover-wrapper:hover::before {
-    opacity: 1;
-    background-image: url('/assets/gifs/squirtle-pokemon.gif');
-  }
-  
+    display: none;
+}
+
+.image-hover-container:hover .static-image {
+    display: none;
+}
+
+.image-hover-container:hover .hover-image {
+    display: block;
+}
