@@ -6,7 +6,7 @@ title: Test
 
 # About me
 
-{% include image-hover.html static_image="/assets/images/test.jpeg" hover_image="/assets/images/squirtle-pokemon.gif" alt_text="Static Image" %}
+{% include image-hover.html static_image="/assets/images/test.jpeg" hover_image="/assets/gifs/squirtle-pokemon.gif" alt_text="Static Image" %}
 
 
 
