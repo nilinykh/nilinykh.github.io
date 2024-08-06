@@ -15,7 +15,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url('{{ site.baseurl }}assets/images/test.jpeg');
+    background-image: url('/assets/images/test.jpeg');
     background-size: cover;
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -23,6 +23,6 @@
   
   .image-hover-wrapper:hover::before {
     opacity: 1;
-    background-image: url('{{ site.baseurl }}assets/gifs/squirtle-pokemon.gif');
+    background-image: url('/assets/gifs/squirtle-pokemon.gif');
   }
   
