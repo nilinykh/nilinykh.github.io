@@ -3,6 +3,9 @@ layout: default
 title: Home
 ---
 
+{% capture about %}{% include about-me.md %}{% endcapture %}
+{{ about| markdownify }}
+
 <hr>
 
 <div style="font-size:0.8rem">
@@ -15,6 +18,7 @@ title: Home
 </ul>
 </div>
 
+<! –– 
 <hr>
 
 <div class="posts">
@@ -49,3 +53,4 @@ title: Home
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
+––>
