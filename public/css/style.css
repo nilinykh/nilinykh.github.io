@@ -1,0 +1,28 @@
+.image-hover-wrapper {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .image-hover-wrapper img {
+    display: block;
+  }
+  
+  .image-hover-wrapper::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('/assets/images/test.jpeg');
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-hover-wrapper:hover::before {
+    opacity: 1;
+    background-image: url('/assets/gifs/squirtle-pokemon.gif');
+  }
+  
