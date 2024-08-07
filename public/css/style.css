@@ -1,5 +1,5 @@
 #image{
-    background-image:url('/assets/images/test.jpeg');
+    background-image:url('/assets/images/me-3200.jpg');
     height:400px;
     max-width:400px;
     background-position:center;
@@ -7,6 +7,6 @@
     background-size:cover;
     }
     #image:hover{
-    background-image:url('/assets/gifs/squirtle-pokemon.gif');
+    background-image:url('/assets/gifs/me-squirtle.gif');
     }
     
