@@ -1,23 +1,12 @@
-.image-hover-container {
-    position: relative;
-    display: inline-block;
-}
-
-.image-hover-container .static-image {
-    display: block;
-}
-
-.image-hover-container .hover-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-}
-
-.image-hover-container:hover .static-image {
-    display: none;
-}
-
-.image-hover-container:hover .hover-image {
-    display: block;
-}
+#image{
+    background-image:url('/assets/images/test.jpeg');
+    height:400px;
+    max-width:400px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    }
+    #image:hover{
+    background-image:url('/assets/gifs/squirtle-pokemon.gif');
+    }
+    
