@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   display: flex;
-  max-width: 52rem; /* Increase this value from 40rem */
+  max-width: 82rem; /* Increase this value from 40rem */
   justify-content: center; /* Center horizontally */
   align-items: center;     /* Center vertically */
   height: 100vh;           /* Use full viewport height */
@@ -88,12 +88,12 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 38em) {
   .container {
-    max-width: 60rem; /* Increase this value from 44rem */
+    max-width: 90rem; /* Increase this value from 44rem */
   }
 }
 @media (min-width: 56em) {
   .container {
-    max-width: 70rem; /* Increase this value from 52rem */
+    max-width: 100rem; /* Increase this value from 52rem */
   }
 }
 
