@@ -5,14 +5,16 @@
     align-items: center;
   }
 
-#image{
-    background-image:url('/assets/images/me-sea.jpg');
-    height:300px;
-    max-width:250px;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    border-radius: 20px; /* Adjust this value to make the corners more or less rounded */
+  #image {
+    background-image: url('/assets/images/me-sea.jpg');
+    height: 300px;
+    width: 250px; /* Ensure this is set explicitly */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border: 1px solid red; /* Temporary border for debugging */
+    background-color: grey; /* Temporary background color for debugging */
 }
 
 #image:hover{
