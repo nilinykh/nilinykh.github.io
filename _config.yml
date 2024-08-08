@@ -7,16 +7,21 @@ baseurl:             /
 remote_theme:        poole/lanyon
 permalink:           pretty
 
-collections:
-  pages:
-    output: true
-  posts:
-    output: true
-paginate: 5 # The number of items per page
-paginate_path: "/blog/page:num" # Path for posts pagination
-# Add a custom paginator for pages
-page_paginate: 5 # Number of pages per page
-page_paginate_path: "/pages/page:num" # Path for pages pagination
+
+paginate: 5 # Default pagination for posts
+paginate_path: "/blog/page:num"
+pagination:
+  enabled: true
+  collections:
+    posts:
+      enabled: true
+      per_page: 5
+      permalink: "/blog/page:num"
+    pages:
+      enabled: true
+      per_page: 5
+      permalink: "/pages/page:num"
+
 
 
 # About/contact
@@ -27,7 +32,7 @@ author:
 
 # Gems
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 # Custom vars
 version:             
