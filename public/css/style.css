@@ -1,3 +1,17 @@
+/* Apply this to the image's container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Ensure the image respects the container's centering */
+  img {
+    max-width: 100%; /* Ensure the image doesn't overflow the container */
+    height: auto;
+  }
+  
+
 #image{
     background-image:url('/assets/images/me-sea.jpg');
     height:300px;

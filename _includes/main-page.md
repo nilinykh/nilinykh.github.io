@@ -1,1 +1,1 @@
-<div id="image"> </div>
+<div id="image" class="image-container"> </div>
