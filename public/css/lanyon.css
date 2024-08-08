@@ -51,6 +51,13 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
 
 /*
  * Wrapper
@@ -84,13 +91,6 @@ h1, h2, h3, h4, h5, h6 {
   .container {
     max-width: 70rem; /* Increase this value from 52rem */
   }
-}
-
-
-section {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
 }
 
 
