@@ -86,6 +86,20 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+#image{
+  background-image:url('/assets/images/me-sea.jpg');
+  height:300px;
+  max-width:250px;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius: 20px; /* Adjust this value to make the corners more or less rounded */
+}
+
+#image:hover{
+  background-image:url('/assets/gifs/pokemon-squirtle.gif');
+  }
+
 .center-content {
   display: flex;
   flex-direction: column;
