@@ -5,8 +5,19 @@ description:
 url:                 https://nilinykh.github.io
 baseurl:             /
 remote_theme:        poole/lanyon
-paginate:            5
 permalink:           pretty
+
+collections:
+  pages:
+    output: true
+  posts:
+    output: true
+paginate: 5 # The number of items per page
+paginate_path: "/blog/page:num" # Path for posts pagination
+# Add a custom paginator for pages
+page_paginate: 5 # Number of pages per page
+page_paginate_path: "/pages/page:num" # Path for pages pagination
+
 
 # About/contact
 author:
