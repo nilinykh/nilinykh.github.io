@@ -51,14 +51,6 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 
-section {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-
-
 /*
  * Wrapper
  *
@@ -81,6 +73,9 @@ section {
 
  .container {
   max-width: 52rem; /* Increase this value from 40rem */
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 @media (min-width: 38em) {
   .container {
