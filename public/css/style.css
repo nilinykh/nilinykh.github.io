@@ -5,8 +5,10 @@
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
-    }
-    #image:hover{
+    border-radius: 20px; /* Adjust this value to make the corners more or less rounded */
+}
+
+#image:hover{
     background-image:url('/assets/gifs/me-squirtle.gif');
     }
     
