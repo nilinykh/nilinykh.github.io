@@ -1,3 +1,1 @@
-<div id="image" class="center-content">
-</div>
-
+<div id="image"> </div>
