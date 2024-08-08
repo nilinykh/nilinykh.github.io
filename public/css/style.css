@@ -1,9 +1,9 @@
-/* Apply this to the image's container */
 .image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: center; /* Center content horizontally within the container */
+  align-items: center;     /* Center content vertically within the container */
+  border: 1px solid #ddd;  /* Optional: Add border to visualize the container */
+}
 
   #image {
     background-image: url('/assets/images/me-sea.jpg');

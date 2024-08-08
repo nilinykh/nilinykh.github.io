@@ -44,6 +44,13 @@ html {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
 }
 
+
+html, body {
+  height: 100%; /* Ensure the body takes the full height of the viewport */
+  margin: 0;    /* Remove default margin */
+}
+
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -71,12 +78,14 @@ h1, h2, h3, h4, h5, h6 {
  * Center the page content.
  */
 
- .container {
-  max-width: 52rem; /* Increase this value from 40rem */
+.container {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
+  max-width: 52rem; /* Increase this value from 40rem */
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  height: 100vh;           /* Use full viewport height */
 }
+
 @media (min-width: 38em) {
   .container {
     max-width: 60rem; /* Increase this value from 44rem */
